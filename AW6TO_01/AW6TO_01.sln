@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AW6TO_01", "AW6TO_01\AW6TO_01.dwproj", "{3A511C79-AFD4-46FE-906C-136EE9324787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A511C79-AFD4-46FE-906C-136EE9324787}.Development|Default.ActiveCfg = Development
+		{3A511C79-AFD4-46FE-906C-136EE9324787}.Development|Default.Build.0 = Development
+		{3A511C79-AFD4-46FE-906C-136EE9324787}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4600EC4A-3223-453F-B477-A43B2F8FBDE4}
+	EndGlobalSection
+EndGlobal

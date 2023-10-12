@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Sexto_Northwind00", "Sexto_Northwind00\Sexto_Northwind00.dwproj", "{3812D3C0-5810-4194-998D-77F21584F01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3812D3C0-5810-4194-998D-77F21584F01A}.Development|Default.ActiveCfg = Development
+		{3812D3C0-5810-4194-998D-77F21584F01A}.Development|Default.Build.0 = Development
+		{3812D3C0-5810-4194-998D-77F21584F01A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBBB53EA-3043-4294-A03E-BA8E99CB580C}
+	EndGlobalSection
+EndGlobal

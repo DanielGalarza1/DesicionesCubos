@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AW6TO_01</Database>
+    <Server>DESKTOP-7PMMU6Q\MULTIDIMENSIONAL</Server>
+    <ConnectionString>Data Source=DESKTOP-7PMMU6Q\MULTIDIMENSIONAL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>K7Gr+CEHBhj0UehRVQRCO3dUFgU=11/10/2023 02:14:17 p. m.11/10/2023 02:14:17 p. m.</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2022</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ddaNANSnT4iwFYfh0neyXSbZYS0=11/10/2023 04:04:04 p. m.11/10/2023 02:31:19 p. m.</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2022</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sqgf8/MuYXogDXZGFuzd6MZ7Y2A=11/10/2023 04:05:06 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qUPR3lcm3+xDpNNY0Eh1fdUI5k4=11/10/2023 02:38:39 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7BVoS7TooM2DzFwWpsqwXitOj1A=11/10/2023 02:38:39 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FwwZK5f8IDlQ72hjKJW+c4LgWM8=11/10/2023 02:38:39 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>a/wev/Vp4BNchXN2CxAm1ha57yU=11/10/2023 02:56:55 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Iy21PQFr5cjHOg/KHj2llNrd7wk=11/10/2023 02:38:39 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lqpNbjtuITJNjhwtYgBMrv/osUQ=11/10/2023 02:38:39 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Fact Internet Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DM7S3DBEMDBuvNF41eCq3dJCm94=11/10/2023 04:05:06 p. m.11/10/2023 02:38:39 p. m.+863XRSuH7BvYMD3hJkDCdw/8XI=11/10/2023 04:04:04 p. m.11/10/2023 02:38:39 p. m.</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2022</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>tWsL57Loq7ILP67apYVmICfjjcY=11/10/2023 02:11:37 p. m.11/10/2023 02:11:37 p. m.</TimeStamp>
+      <ID>
+        <String>AW6TO_01</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-10-11T21:05:52.203333Z</LastDeployed>
+</DeploymentSnapshot>
