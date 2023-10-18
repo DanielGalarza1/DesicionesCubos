@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>DESKTOP-7PMMU6Q\MULTIDIMENSIONAL</TargetServer>
         <TargetDatabase>AW6TO_01</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
