@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HefestoProyecto", "HefestoProyecto\HefestoProyecto.dwproj", "{9B76CF07-FAD9-4D8E-9F46-7248A17BECA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B76CF07-FAD9-4D8E-9F46-7248A17BECA9}.Development|Default.ActiveCfg = Development
+		{9B76CF07-FAD9-4D8E-9F46-7248A17BECA9}.Development|Default.Build.0 = Development
+		{9B76CF07-FAD9-4D8E-9F46-7248A17BECA9}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D011C05-8DB6-4325-B63B-E6B31A3D574F}
+	EndGlobalSection
+EndGlobal

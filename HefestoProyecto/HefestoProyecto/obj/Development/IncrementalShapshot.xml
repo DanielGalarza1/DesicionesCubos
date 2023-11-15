@@ -1,6 +1,6 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
-    <Database>FactVentas</Database>
+    <Database>HefestoProyecto</Database>
     <Server>DESKTOP-7PMMU6Q\MULTIDIMENSIONAL</Server>
     <ConnectionString>Data Source=DESKTOP-7PMMU6Q\MULTIDIMENSIONAL;Timeout=0</ConnectionString>
   </Target>
@@ -19,57 +19,99 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>hV+zeWmmY9y3GAqVjo8ushdeTus=25/10/2023 03:56:15 p. m.25/10/2023 03:56:15 p. m.</TimeStamp>
+        <TimeStamp>gfXyAeK56qH6ywUbjh9DEc5asAY=08/11/2023 02:38:46 a. m.08/11/2023 02:38:46 a. m.</TimeStamp>
         <ID>
-          <String>DW6to</String>
+          <String>Hefesto</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>benUfHxSRAd5mLJutGSVJNbImhI=25/10/2023 04:23:07 p. m.25/10/2023 03:56:32 p. m.</TimeStamp>
+        <TimeStamp>AcE5qK4OgtUPXT7DIOUnPWUuMxo=09/11/2023 03:27:29 p. m.08/11/2023 02:38:58 a. m.</TimeStamp>
         <ID>
-          <String>DW6to</String>
+          <String>Hefesto</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>z3a0hoFrIL6PB4nMoHQtQdJQ1pk=25/10/2023 04:26:11 p. m.25/10/2023 04:23:38 p. m.</TimeStamp>
+        <TimeStamp>y7ofMSXdNFO2jXMW7MgGxLcvy8Q=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
         <ID>
           <String>Dim Fechas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wwIk8Ipgk00NZc7ECpd8hjpP5rk=25/10/2023 04:26:11 p. m.25/10/2023 04:23:38 p. m.</TimeStamp>
+        <TimeStamp>b/2l/+i8MrsTml48IOSIwQc4Nmo=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Estado Ordenes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XmOt6ilsXjzMAU3YREu2L7CrM4Q=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
         <ID>
           <String>Dim Productos</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>j8tPYXJFIB50uWV6h7ZwzyyZVoA=25/10/2023 04:26:11 p. m.25/10/2023 04:23:38 p. m.</TimeStamp>
+        <TimeStamp>41NjXFZCb7P3LTzJ1hhN+RvARV4=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Empleados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PBfkqkJKl2eWCZC9oXYM+XaRL/U=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Divisas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>broRXdAreM8NN8oHSm70zzHZ1nA=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Estado Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GnVO6PPe7HYLXFm9iDcCfU2M6B8=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
         <ID>
           <String>Dim Clientes</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>SWHG7r2DbnQfQ2Ko5slzb/nzyf4=25/10/2023 04:26:11 p. m.25/10/2023 04:23:38 p. m.4s/Y3l7w+RSA7ljtQ4vbMeGtGoA=25/10/2023 04:23:38 p. m.25/10/2023 04:23:38 p. m.</TimeStamp>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gHl4bYqE6LhokwDu++/4NUdETkg=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
         <ID>
-          <String>DW6to</String>
+          <String>Dim Vendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sjJEeGa+cRmP7XHbMkBamQBAqFU=08/11/2023 06:00:15 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Monedas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>vaSVLMtQ1LJNxGZlKuT2dGl8FDY=09/11/2023 08:19:06 p. m.08/11/2023 05:54:06 p. m.xS+zK/FCI1mr+TsykaAlFTPrfDs=09/11/2023 03:27:29 p. m.08/11/2023 05:54:06 p. m.</TimeStamp>
+        <ID>
+          <String>Hefesto</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>wajPnJJXhrOouUR50tR3jhcRf0E=25/10/2023 03:52:40 p. m.25/10/2023 03:52:39 p. m.</TimeStamp>
+      <TimeStamp>uX38sBy/n5JwJGplDU3ZsI/qqNI=08/11/2023 02:37:55 a. m.08/11/2023 02:37:55 a. m.</TimeStamp>
       <ID>
-        <String>FactVentas</String>
+        <String>HefestoProyecto</String>
       </ID>
     </DatabaseSnapshot>
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-11-07T20:15:43.15Z</LastDeployed>
+  <LastDeployed>2023-11-10T01:19:09.076667Z</LastDeployed>
 </DeploymentSnapshot>
